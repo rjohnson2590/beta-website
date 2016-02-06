@@ -3,6 +3,7 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/main.css')
+    script(src='/javascripts/index.js')
   body
     .header
       header
@@ -14,4 +15,10 @@ html
           a(href='mailto:rjonhson2590@gmail.com') rjonhson2590@gmail.com
         h2  Mobile: 847-707-0375
         h2.bottom-header Please Scroll Down
-    block content
+    index
+script(type='riot/tag', src='index.tag')
+script(type='riot/tag', src='app-navi.tag')
+script(type='riot/tag', src='app-help.tag')
+// scripts we need
+script(src='https://cdn.rawgit.com/riot/riot/master/riot+compiler.min.js')
+

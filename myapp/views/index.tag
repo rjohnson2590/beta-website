@@ -1,6 +1,4 @@
-extends layout
-
-block content
+index
   .content
     .border
     webdev
